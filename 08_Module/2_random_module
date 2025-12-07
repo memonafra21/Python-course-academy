@@ -1,0 +1,13 @@
+import random
+
+# Generate 5 random integers between 1 and 50
+numbers = []
+
+for i in range(5):
+    numbers.append(random.randint(1, 50))
+
+# Print the list
+print("Generated Numbers:", numbers)
+
+# Print the sum of the numbers
+print("Sum of Numbers:", sum(numbers))
